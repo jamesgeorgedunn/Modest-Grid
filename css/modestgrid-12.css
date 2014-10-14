@@ -1,0 +1,375 @@
+* {
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1280px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.wrapper:before,
+.row:before {
+  display: table;
+  content: " ";
+}
+
+.wrapper:after,
+.row:after {
+  clear: both;
+  display: table;
+  content: " ";
+}
+
+.dt-1, .tl-1, .tp-1, .ml-1, .mp-1,
+.dt-2, .tl-2, .tp-2, .ml-2, .mp-2,
+.dt-3, .tl-3, .tp-3, .ml-3, .mp-3,
+.dt-4, .tl-4, .tp-4, .ml-4, .mp-4,
+.dt-5, .tl-5, .tp-5, .ml-5, .mp-5,
+.dt-6, .tl-6, .tp-6, .ml-6, .mp-6,
+.dt-7, .tl-7, .tp-7, .ml-7, .mp-7,
+.dt-8, .tl-8, .tp-8, .ml-8, .mp-8,
+.dt-9, .tl-9, .tp-9, .ml-9, .mp-9,
+.dt-10, .tl-10, .tp-10, .ml-10, .mp-10,
+.dt-11, .tl-11, .tp-11, .ml-11, .mp-11,
+.dt-12, .tl-12, .tp-12, .ml-12, .mp-12 {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 1px;
+}
+
+.dt-1 {
+  width: 8.3333333%;
+}
+
+.dt-2 {
+  width: 16.6666667%;
+}
+
+.dt-3 {
+  width: 25%;
+}
+
+.dt-4 {
+  width: 33.3333332%;
+}
+
+.dt-5 {
+  width: 41.6666665%;
+}
+
+.dt-6 {
+  width: 50%;
+}
+
+.dt-7 {
+  width: 58.3333331%;
+}
+
+.dt-8 {
+  width: 66.6666664%;
+}
+
+.dt-9 {
+  width: 75%;
+}
+
+.dt-10 {
+  width: 83.3333333%;
+}
+
+.dt-11 {
+  width: 91.6666663%;
+}
+
+.dt-12 {
+  width: 100%;
+}
+
+@media (max-width: 1280px) {
+  .wrapper {
+    max-width: 1170px;
+  }
+}
+@media (max-width: 1170px) {
+  .wrapper {
+    max-width: 960px;
+  }
+}
+@media (max-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+  }
+
+  .dt-1,
+  .dt-2,
+  .dt-3,
+  .dt-4,
+  .dt-5,
+  .dt-6,
+  .dt-7,
+  .dt-8,
+  .dt-9,
+  .dt-10,
+  .dt-11,
+  .dt-12 {
+    width: 100%;
+  }
+
+  .tl-1 {
+    width: 8.3333333%;
+  }
+
+  .tl-2 {
+    width: 16.6666667%;
+  }
+
+  .tl-3 {
+    width: 25%;
+  }
+
+  .tl-4 {
+    width: 33.3333332%;
+  }
+
+  .tl-5 {
+    width: 41.6666665%;
+  }
+
+  .tl-6 {
+    width: 50%;
+  }
+
+  .tl-7 {
+    width: 58.3333331%;
+  }
+
+  .tl-8 {
+    width: 66.6666664%;
+  }
+
+  .tl-9 {
+    width: 75%;
+  }
+
+  .tl-10 {
+    width: 83.3333333%;
+  }
+
+  .tl-11 {
+    width: 91.6666663%;
+  }
+
+  .tl-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .tl-1,
+  .tl-2,
+  .tl-3,
+  .tl-4,
+  .tl-5,
+  .tl-6,
+  .tl-7,
+  .tl-8,
+  .tl-9,
+  .tl-10,
+  .tl-11,
+  .tl-12 {
+    width: 100%;
+  }
+
+  .tp-1 {
+    width: 8.3333333%;
+  }
+
+  .tp-2 {
+    width: 16.6666667%;
+  }
+
+  .tp-3 {
+    width: 25%;
+  }
+
+  .tp-4 {
+    width: 33.3333332%;
+  }
+
+  .tp-5 {
+    width: 41.6666665%;
+  }
+
+  .tp-6 {
+    width: 50%;
+  }
+
+  .tp-7 {
+    width: 58.3333331%;
+  }
+
+  .tp-8 {
+    width: 66.6666664%;
+  }
+
+  .tp-9 {
+    width: 75%;
+  }
+
+  .tp-10 {
+    width: 83.3333333%;
+  }
+
+  .tp-11 {
+    width: 91.6666663%;
+  }
+
+  .tp-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 568px) {
+  .tp-1,
+  .tp-2,
+  .tp-3,
+  .tp-4,
+  .tp-5,
+  .tp-6,
+  .tp-7,
+  .tp-8,
+  .tp-9,
+  .tp-10,
+  .tp-11,
+  .tp-12 {
+    width: 100%;
+  }
+
+  .ml-1 {
+    width: 8.3333333%;
+  }
+
+  .ml-2 {
+    width: 16.6666667%;
+  }
+
+  .ml-3 {
+    width: 25%;
+  }
+
+  .ml-4 {
+    width: 33.3333332%;
+  }
+
+  .ml-5 {
+    width: 41.6666665%;
+  }
+
+  .ml-6 {
+    width: 50%;
+  }
+
+  .ml-7 {
+    width: 58.3333331%;
+  }
+
+  .ml-8 {
+    width: 66.6666664%;
+  }
+
+  .ml-9 {
+    width: 75%;
+  }
+
+  .ml-10 {
+    width: 83.3333333%;
+  }
+
+  .ml-11 {
+    width: 91.6666663%;
+  }
+
+  .ml-12 {
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .ml-1,
+  .ml-2,
+  .ml-3,
+  .ml-4,
+  .ml-5,
+  .ml-6,
+  .ml-7,
+  .ml-8,
+  .ml-9,
+  .ml-10,
+  .ml-11,
+  .ml-12 {
+    width: 100%;
+  }
+
+  .mp-1 {
+    width: 8.3333333%;
+  }
+
+  .mp-2 {
+    width: 16.6666667%;
+  }
+
+  .mp-3 {
+    width: 25%;
+  }
+
+  .mp-4 {
+    width: 33.3333332%;
+  }
+
+  .mp-5 {
+    width: 41.6666665%;
+  }
+
+  .mp-6 {
+    width: 50%;
+  }
+
+  .mp-7 {
+    width: 58.3333331%;
+  }
+
+  .mp-8 {
+    width: 66.6666664%;
+  }
+
+  .mp-9 {
+    width: 75%;
+  }
+
+  .mp-10 {
+    width: 83.3333333%;
+  }
+
+  .mp-11 {
+    width: 91.6666663%;
+  }
+
+  .mp-12 {
+    width: 100%;
+  }
+}
