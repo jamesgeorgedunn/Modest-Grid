@@ -1,0 +1,31 @@
+body {
+	text-align: center;
+  font-family: Georgia, Times, serif;
+  font-style: italic;
+}
+
+.wrapper {
+	border: 1px solid #cccccc;
+}
+
+.dt-1,
+.dt-2,
+.dt-3,
+.dt-4,
+.dt-5,
+.dt-6,
+.dt-7,
+.dt-8,
+.dt-9,
+.dt-10,
+.dt-11,
+.dt-12,
+.dt-13,
+.dt-14,
+.dt-15,
+.dt-16 {
+	background: #f2f2f2;
+	border: 1px solid #cccccc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}

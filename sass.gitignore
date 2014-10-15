@@ -1,2 +1,6 @@
 .sass-cache
+<<<<<<< Updated upstream:sass.gitignore
 *.css.map
+=======
+.DS_Store
+>>>>>>> Stashed changes:.gitignore
