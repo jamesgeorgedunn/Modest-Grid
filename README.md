@@ -22,7 +22,7 @@ Modest Grid has two separate CSS files.
 	modestgrid-12.css
 	modestgrid-16.css
 
-This allows you to choose a grid system that works best with your design. Instead of going adding from 1 to 12 you are able to go all the way to 16. This nice little extra allows you to work in eighths.
+This allows you to choose a grid system that works best with your design. Instead of just adding from 1 to 12 you are able to go all the way to 16.
 
 #Compatibility
 Modest Grid is still in its early stages and thus hasn't been fully tested. It will however work fine in more up to date web browsers.
