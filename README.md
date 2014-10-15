@@ -3,16 +3,16 @@ Modest-Grid
 
 Modest Grid is a super lightweight grid system developed to create responsive prototypes. With the CSS weighing in at just over 1kB, it truly is a super lightweight.
 
-What really sets Modest Grid apart are its naming conventions.
+What really sets Modest Grid apart are its naming conventions for the column classes it uses.
 
-    Desktop (1024px and up) .dt-.
+.dt-[1 to 12/16] Desktop (1024px and up).
 
-    Tablet landscape (1024px) .tl-.
+.tl-[1 to 12/16] Tablet landscape (1024px).
 
-    Tablet portrait (768px) .tp-.
+.tp-[1 to 12/16] Tablet portrait (768px).
 
-    Mobile landscape (568px) .ml-.
+.ml-[1 to 12/16] Mobile landscape (568px).
 
-    And finally mobile portrait (320px) .mp-.
+.mp-[1 to 12/16] Mobile portrait (320px).
 
 A great option that comes with Modest Grid is the ability to change the gutter width using the gutter variable written in SASS. This way you don't have to worry if you have set the correct padding and margins.
