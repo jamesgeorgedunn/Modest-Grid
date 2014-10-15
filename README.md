@@ -19,7 +19,7 @@ A great option that comes with Modest Grid is the ability to change the gutter w
 ##12 or 16 columns
 Modest Grid has two separate CSS files.
 
-modestgrid-12.css
-modestgrid-16.css
+	modestgrid-12.css
+	modestgrid-16.css
 
 This allows you to choose a grid system that works best with your design. Instead of going adding from 1 to 12 you are able to go all the way to 16. This nice little extra allows you to work in eighths.
