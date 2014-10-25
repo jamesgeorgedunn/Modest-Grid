@@ -2,7 +2,7 @@
 
 Modest Grid is a super lightweight grid system developed to create responsive prototypes. With the CSS weighing in at under 2kB, it truly is a super lightweight.
 
-What really sets Modest Grid apart are its naming conventions for the column classes it uses.
+What really sets Modest Grid apart are its naming conventions for the column classes it uses. As well as the ability to choose how many columns you would like to use for your projects.
 
 ###.dt-[1 to 12/16] Desktop (1024px and up).
 
