@@ -458,3 +458,28 @@ body {
     width: 133.33333%;
   }
 }
+@media (max-width: 567px) {
+  .mp-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 568px) and (max-width: 767px) {
+  .ml-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .tp-hide {
+    display: none !important;
+  }
+}
+@media (max-width: 1024px) {
+  .tl-hide {
+    display: none !important;
+  }
+}
+@media (min-width: 1025px) {
+  .dt-hide {
+    display: none !important;
+  }
+}
