@@ -16,13 +16,13 @@ What really sets Modest Grid apart are its naming conventions for the column cla
 
 A great option that comes with Modest Grid is the ability to change the gutter width using the gutter variable written in SASS. This way you don't have to worry if you have set the correct padding and margins. This is much more reliable than the find and replace method is it won't replace any code that you may want left such as the width of an element.
 
-##12 or 16 columns
-Modest Grid has two separate CSS files.
+##Set your own columns
+Using a bit of SASS magic you can now set how many columns you would like to use for your project. Simply set the number within the $columns variable and the rest will be taken care of.
+
+Alternatively you can use the 12 and 16 CSS files that have already been created within Modest Grid.
 
 	modestgrid-12.css
 	modestgrid-16.css
-
-This allows you to choose a grid system that works best with your design. Instead of just adding from 1 to 12 you are able to go all the way to 16.
 
 #Compatibility
 Modest Grid is still in its early stages and thus hasn't been fully tested. It will however work fine in more up to date web browsers.
