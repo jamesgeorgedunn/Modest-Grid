@@ -1,5 +1,5 @@
 // Number of columns
-$columns: 24;
+$columns: 12;
 
 // Gutter width
 $gutter: 20px; // This needs to be an even number.
@@ -12,6 +12,11 @@ $gutter: 20px; // This needs to be an even number.
 	box-sizing: border-box;
 }
 
+html, body {
+	height: 100%;
+	width: 100%;
+}
+
 body {
 	margin: 0;
 	font-family: Georgia, Times, serif;
@@ -21,6 +26,7 @@ body {
 .wrapper {
 	max-width: 1280px;
 	width: 100%;
+	height: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: $gutter / 2;
@@ -161,6 +167,79 @@ body {
 
 .dt-24 {
 	width: (100% / $columns) * 24;
+}
+
+.row-1 {
+	height: (100% / 12) * 1;
+	width: 100%;
+	display: table;
+}
+
+.row-2 {
+	height: (100% / 12) * 2;
+	width: 100%;
+	display: table;
+}
+
+.row-3 {
+	height: (100% / 12) * 3;
+	width: 100%;
+	display: table;
+	background: #eee;
+}
+
+.row-4 {
+	height: (100% / 12) * 4;
+	width: 100%;
+	display: table;
+}
+
+.row-5 {
+	height: (100% / 12) * 5;
+	width: 100%;
+	display: table;
+}
+
+.row-6 {
+	height: (100% / 12) * 6;
+	width: 100%;
+	display: table;
+}
+
+.row-7 {
+	height: (100% / 12) * 7;
+	width: 100%;
+	display: table;
+}
+
+.row-8 {
+	height: (100% / 12) * 8;
+	width: 100%;
+	display: table;
+}
+
+.row-9 {
+	height: (100% / 12) * 9;
+	width: 100%;
+	display: table;
+}
+
+.row-10 {
+	height: (100% / 12) * 10;
+	width: 100%;
+	display: table;
+}
+
+.row-11 {
+	height: (100% / 12) * 11;
+	width: 100%;
+	display: table;
+}
+
+.row-12 {
+	height: (100% / 12) * 12;
+	width: 100%;
+	display: table;
 }
 
 @media (max-width: 1280px) {

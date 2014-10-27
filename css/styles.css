@@ -2,6 +2,7 @@ body {
 	text-align: center;
   font-family: Georgia, Times, serif;
   font-style: italic;
+  font-size: 12px;
 }
 
 .wrapper {
@@ -23,7 +24,15 @@ body {
 .dt-13,
 .dt-14,
 .dt-15,
-.dt-16 {
+.dt-16,
+.dt-17,
+.dt-18,
+.dt-19,
+.dt-20,
+.dt-21,
+.dt-22,
+.dt-23,
+.dt-24 {
 	background: #f2f2f2;
 	border: 1px solid #ffffff;
 	padding-top: 20px;
