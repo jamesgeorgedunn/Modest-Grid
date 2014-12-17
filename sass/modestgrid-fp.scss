@@ -6,10 +6,14 @@ $gutter: 20px; // This needs to be an even number.
 
 * {
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 *:before, *:after {
 	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
 html, body {
