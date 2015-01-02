@@ -1,555 +1,172 @@
-* {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; }
-
-*:before, *:after {
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box; }
-
-body {
-  margin: 0;
-  font-family: Georgia, Times, serif;
-  font-style: italic; }
-
-.wrapper {
-  max-width: 1280px;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 10px;
-  padding-right: 10px; }
-
-.row {
-  margin-left: -10px;
-  margin-right: -10px; }
-
-.wrapper:before,
-.row:before {
-  display: table;
-  content: " "; }
-
-.wrapper:after,
-.row:after {
-  clear: both;
-  display: table;
-  content: " "; }
-
-.dt-1, .tl-1, .tp-1, .ml-1, .mp-1,
-.dt-2, .tl-2, .tp-2, .ml-2, .mp-2,
-.dt-3, .tl-3, .tp-3, .ml-3, .mp-3,
-.dt-4, .tl-4, .tp-4, .ml-4, .mp-4,
-.dt-5, .tl-5, .tp-5, .ml-5, .mp-5,
-.dt-6, .tl-6, .tp-6, .ml-6, .mp-6,
-.dt-7, .tl-7, .tp-7, .ml-7, .mp-7,
-.dt-8, .tl-8, .tp-8, .ml-8, .mp-8,
-.dt-9, .tl-9, .tp-9, .ml-9, .mp-9,
-.dt-10, .tl-10, .tp-10, .ml-10, .mp-10,
-.dt-11, .tl-11, .tp-11, .ml-11, .mp-11,
-.dt-12, .tl-12, .tp-12, .ml-12, .mp-12,
-.dt-13, .tl-13, .tp-13, .ml-13, .mp-13,
-.dt-14, .tl-14, .tp-14, .ml-14, .mp-14,
-.dt-15, .tl-15, .tp-15, .ml-15, .mp-15,
-.dt-16, .tl-16, .tp-16, .ml-16, .mp-16,
-.dt-17, .tl-17, .tp-17, .ml-17, .mp-17,
-.dt-18, .tl-18, .tp-18, .ml-18, .mp-18,
-.dt-19, .tl-19, .tp-19, .ml-19, .mp-19,
-.dt-20, .tl-20, .tp-20, .ml-20, .mp-20,
-.dt-21, .tl-21, .tp-21, .ml-21, .mp-21,
-.dt-22, .tl-22, .tp-22, .ml-22, .mp-22,
-.dt-23, .tl-23, .tp-23, .ml-23, .mp-23,
-.dt-24, .tl-24, .tp-24, .ml-24, .mp-24 {
-  float: left;
-  padding-left: 10px;
-  padding-right: 10px;
-  min-height: 1px; }
-
-.dt-1 {
-  width: 4.16667%; }
-
-.dt-2 {
-  width: 8.33333%; }
-
-.dt-3 {
-  width: 12.5%; }
-
-.dt-4 {
-  width: 16.66667%; }
-
-.dt-5 {
-  width: 20.83333%; }
-
-.dt-6 {
-  width: 25%; }
-
-.dt-7 {
-  width: 29.16667%; }
-
-.dt-8 {
-  width: 33.33333%; }
-
-.dt-9 {
-  width: 37.5%; }
-
-.dt-10 {
-  width: 41.66667%; }
-
-.dt-11 {
-  width: 45.83333%; }
-
-.dt-12 {
-  width: 50%; }
-
-.dt-13 {
-  width: 54.16667%; }
-
-.dt-14 {
-  width: 58.33333%; }
-
-.dt-15 {
-  width: 62.5%; }
-
-.dt-16 {
-  width: 66.66667%; }
-
-.dt-17 {
-  width: 70.83333%; }
-
-.dt-18 {
-  width: 75%; }
+* { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
 
-.dt-19 {
-  width: 79.16667%; }
+*:before, *:after { box-sizing: border-box; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; }
 
-.dt-20 {
-  width: 83.33333%; }
+body { margin: 0; }
 
-.dt-21 {
-  width: 87.5%; }
+.wrapper { max-width: 1280px; width: 100%; margin-left: auto; margin-right: auto; padding-left: 20px; padding-right: 20px; }
 
-.dt-22 {
-  width: 91.66667%; }
+.row { margin-left: -20px; margin-right: -20px; }
 
-.dt-23 {
-  width: 95.83333%; }
+.wrapper:before, .row:before { display: table; content: " "; }
 
-.dt-24 {
-  width: 100%; }
+.wrapper:after, .row:after { clear: both; display: table; content: " "; }
 
-@media (max-width: 1280px) {
-  .wrapper {
-    max-width: 1170px; } }
-@media (max-width: 1170px) {
-  .wrapper {
-    max-width: 960px; } }
-@media (max-width: 1024px) {
-  .wrapper {
-    max-width: 1024px; }
+.dt-1, .tl-1, .tp-1, .ml-1, .mp-1, .dt-2, .tl-2, .tp-2, .ml-2, .mp-2, .dt-3, .tl-3, .tp-3, .ml-3, .mp-3, .dt-4, .tl-4, .tp-4, .ml-4, .mp-4, .dt-5, .tl-5, .tp-5, .ml-5, .mp-5, .dt-6, .tl-6, .tp-6, .ml-6, .mp-6, .dt-7, .tl-7, .tp-7, .ml-7, .mp-7, .dt-8, .tl-8, .tp-8, .ml-8, .mp-8, .dt-9, .tl-9, .tp-9, .ml-9, .mp-9, .dt-10, .tl-10, .tp-10, .ml-10, .mp-10, .dt-11, .tl-11, .tp-11, .ml-11, .mp-11, .dt-12, .tl-12, .tp-12, .ml-12, .mp-12, .dt-13, .tl-13, .tp-13, .ml-13, .mp-13, .dt-14, .tl-14, .tp-14, .ml-14, .mp-14, .dt-15, .tl-15, .tp-15, .ml-15, .mp-15, .dt-16, .tl-16, .tp-16, .ml-16, .mp-16, .dt-17, .tl-17, .tp-17, .ml-17, .mp-17, .dt-18, .tl-18, .tp-18, .ml-18, .mp-18, .dt-19, .tl-19, .tp-19, .ml-19, .mp-19, .dt-20, .tl-20, .tp-20, .ml-20, .mp-20, .dt-21, .tl-21, .tp-21, .ml-21, .mp-21, .dt-22, .tl-22, .tp-22, .ml-22, .mp-22, .dt-23, .tl-23, .tp-23, .ml-23, .mp-23, .dt-24, .tl-24, .tp-24, .ml-24, .mp-24 { float: left; padding-left: 20px; padding-right: 20px; min-height: 1px; }
 
-  .dt-1,
-  .dt-2,
-  .dt-3,
-  .dt-4,
-  .dt-5,
-  .dt-6,
-  .dt-7,
-  .dt-8,
-  .dt-9,
-  .dt-10,
-  .dt-11,
-  .dt-12,
-  .dt-13,
-  .dt-14,
-  .dt-15,
-  .dt-16,
-  .dt-17,
-  .dt-18,
-  .dt-19,
-  .dt-20,
-  .dt-21,
-  .dt-22,
-  .dt-23,
-  .dt-24 {
-    width: 100%; }
-
-  .tl-1 {
-    width: 4.16667%; }
-
-  .tl-2 {
-    width: 8.33333%; }
-
-  .tl-3 {
-    width: 12.5%; }
-
-  .tl-4 {
-    width: 16.66667%; }
-
-  .tl-5 {
-    width: 20.83333%; }
-
-  .tl-6 {
-    width: 25%; }
-
-  .tl-7 {
-    width: 29.16667%; }
-
-  .tl-8 {
-    width: 33.33333%; }
-
-  .tl-9 {
-    width: 37.5%; }
-
-  .tl-10 {
-    width: 41.66667%; }
-
-  .tl-11 {
-    width: 45.83333%; }
-
-  .tl-12 {
-    width: 50%; }
-
-  .tl-13 {
-    width: 54.16667%; }
-
-  .tl-14 {
-    width: 58.33333%; }
-
-  .tl-15 {
-    width: 62.5%; }
-
-  .tl-16 {
-    width: 66.66667%; }
-
-  .tl-17 {
-    width: 70.83333%; }
-
-  .tl-18 {
-    width: 75%; }
+.dt-1 { width: 8.33333%; }
 
-  .tl-19 {
-    width: 79.16667%; }
+.dt-2 { width: 16.66667%; }
 
-  .tl-20 {
-    width: 83.33333%; }
+.dt-3 { width: 25%; }
 
-  .tl-21 {
-    width: 87.5%; }
+.dt-4 { width: 33.33333%; }
 
-  .tl-22 {
-    width: 91.66667%; }
+.dt-5 { width: 41.66667%; }
 
-  .tl-23 {
-    width: 95.83333%; }
+.dt-6 { width: 50%; }
 
-  .tl-24 {
-    width: 100%; } }
-@media (max-width: 768px) {
-  .tl-1,
-  .tl-2,
-  .tl-3,
-  .tl-4,
-  .tl-5,
-  .tl-6,
-  .tl-7,
-  .tl-8,
-  .tl-9,
-  .tl-10,
-  .tl-11,
-  .tl-12,
-  .tl-13,
-  .tl-14,
-  .tl-15,
-  .tl-16,
-  .tl-17,
-  .tl-18,
-  .tl-19,
-  .tl-20,
-  .tl-21,
-  .tl-22,
-  .tl-23,
-  .tl-24 {
-    width: 100%; }
-
-  .tp-1 {
-    width: 4.16667%; }
-
-  .tp-2 {
-    width: 8.33333%; }
-
-  .tp-3 {
-    width: 12.5%; }
-
-  .tp-4 {
-    width: 16.66667%; }
-
-  .tp-5 {
-    width: 20.83333%; }
-
-  .tp-6 {
-    width: 25%; }
-
-  .tp-7 {
-    width: 29.16667%; }
-
-  .tp-8 {
-    width: 33.33333%; }
-
-  .tp-9 {
-    width: 37.5%; }
-
-  .tp-10 {
-    width: 41.66667%; }
-
-  .tp-11 {
-    width: 45.83333%; }
-
-  .tp-12 {
-    width: 50%; }
-
-  .tp-13 {
-    width: 54.16667%; }
-
-  .tp-14 {
-    width: 58.33333%; }
-
-  .tp-15 {
-    width: 62.5%; }
-
-  .tp-16 {
-    width: 66.66667%; }
-
-  .tp-17 {
-    width: 70.83333%; }
-
-  .tp-18 {
-    width: 75%; }
-
-  .tp-19 {
-    width: 79.16667%; }
-
-  .tp-20 {
-    width: 83.33333%; }
-
-  .tp-21 {
-    width: 87.5%; }
-
-  .tp-22 {
-    width: 91.66667%; }
-
-  .tp-23 {
-    width: 95.83333%; }
-
-  .tp-24 {
-    width: 100%; } }
-@media (max-width: 568px) {
-  .tp-1,
-  .tp-2,
-  .tp-3,
-  .tp-4,
-  .tp-5,
-  .tp-6,
-  .tp-7,
-  .tp-8,
-  .tp-9,
-  .tp-10,
-  .tp-11,
-  .tp-12,
-  .tp-13,
-  .tp-14,
-  .tp-15,
-  .tp-16,
-  .tp-17,
-  .tp-18,
-  .tp-19,
-  .tp-20,
-  .tp-21,
-  .tp-22,
-  .tp-23,
-  .tp-24 {
-    width: 100%; }
-
-  .ml-1 {
-    width: 4.16667%; }
-
-  .ml-2 {
-    width: 8.33333%; }
-
-  .ml-3 {
-    width: 12.5%; }
-
-  .ml-4 {
-    width: 16.66667%; }
-
-  .ml-5 {
-    width: 20.83333%; }
-
-  .ml-6 {
-    width: 25%; }
-
-  .ml-7 {
-    width: 29.16667%; }
-
-  .ml-8 {
-    width: 33.33333%; }
-
-  .ml-9 {
-    width: 37.5%; }
-
-  .ml-10 {
-    width: 41.66667%; }
-
-  .ml-11 {
-    width: 45.83333%; }
-
-  .ml-12 {
-    width: 50%; }
-
-  .ml-13 {
-    width: 54.16667%; }
-
-  .ml-14 {
-    width: 58.33333%; }
-
-  .ml-15 {
-    width: 62.5%; }
-
-  .ml-16 {
-    width: 66.66667%; }
-
-  .ml-17 {
-    width: 70.83333%; }
-
-  .ml-18 {
-    width: 75%; }
-
-  .ml-19 {
-    width: 79.16667%; }
-
-  .ml-20 {
-    width: 83.33333%; }
-
-  .ml-21 {
-    width: 87.5%; }
-
-  .ml-22 {
-    width: 91.66667%; }
-
-  .ml-23 {
-    width: 95.83333%; }
-
-  .ml-24 {
-    width: 100%; } }
-@media (max-width: 320px) {
-  .ml-1,
-  .ml-2,
-  .ml-3,
-  .ml-4,
-  .ml-5,
-  .ml-6,
-  .ml-7,
-  .ml-8,
-  .ml-9,
-  .ml-10,
-  .ml-11,
-  .ml-12,
-  .ml-13,
-  .ml-14,
-  .ml-15,
-  .ml-16,
-  .ml-17,
-  .ml-18,
-  .ml-19,
-  .ml-20,
-  .ml-21,
-  .ml-22,
-  .ml-23,
-  .ml-24 {
-    width: 100%; }
-
-  .mp-1 {
-    width: 4.16667%; }
-
-  .mp-2 {
-    width: 8.33333%; }
-
-  .mp-3 {
-    width: 12.5%; }
-
-  .mp-4 {
-    width: 16.66667%; }
-
-  .mp-5 {
-    width: 20.83333%; }
-
-  .mp-6 {
-    width: 25%; }
-
-  .mp-7 {
-    width: 29.16667%; }
-
-  .mp-8 {
-    width: 33.33333%; }
-
-  .mp-9 {
-    width: 37.5%; }
-
-  .mp-10 {
-    width: 41.66667%; }
-
-  .mp-11 {
-    width: 45.83333%; }
-
-  .mp-12 {
-    width: 50%; }
-
-  .mp-13 {
-    width: 54.16667%; }
-
-  .mp-14 {
-    width: 58.33333%; }
-
-  .mp-15 {
-    width: 62.5%; }
-
-  .mp-16 {
-    width: 66.66667%; }
-
-  .mp-17 {
-    width: 70.83333%; }
-
-  .mp-18 {
-    width: 75%; }
-
-  .mp-19 {
-    width: 79.16667%; }
-
-  .mp-20 {
-    width: 83.33333%; }
-
-  .mp-21 {
-    width: 87.5%; }
-
-  .mp-22 {
-    width: 91.66667%; }
-
-  .mp-23 {
-    width: 95.83333%; }
-
-  .mp-24 {
-    width: 100%; } }
-@media (max-width: 567px) {
-  .mp-hide {
-    display: none !important; } }
-@media (min-width: 568px) and (max-width: 767px) {
-  .ml-hide {
-    display: none !important; } }
-@media (min-width: 768px) and (max-width: 1023px) {
-  .tp-hide {
-    display: none !important; } }
-@media (max-width: 1024px) {
-  .tl-hide {
-    display: none !important; } }
-@media (min-width: 1025px) {
-  .dt-hide {
-    display: none !important; } }
+.dt-7 { width: 58.33333%; }
+
+.dt-8 { width: 66.66667%; }
+
+.dt-9 { width: 75%; }
+
+.dt-10 { width: 83.33333%; }
+
+.dt-11 { width: 91.66667%; }
+
+.dt-12 { width: 100%; }
+
+.dt-13 { width: 108.33333%; }
+
+.dt-14 { width: 116.66667%; }
+
+.dt-15 { width: 125.0%; }
+
+.dt-16 { width: 133.33333%; }
+
+.dt-17 { width: 141.66667%; }
+
+.dt-18 { width: 150%; }
+
+.dt-19 { width: 158.33333%; }
+
+.dt-20 { width: 166.66667%; }
+
+.dt-21 { width: 175%; }
+
+.dt-22 { width: 183.33333%; }
+
+.dt-23 { width: 191.66667%; }
+
+.dt-24 { width: 200%; }
+
+@media (max-width: 1280px) { .wrapper { max-width: 1170px; } }
+@media (max-width: 1170px) { .wrapper { max-width: 1024px; } }
+@media (max-width: 1024px) { .wrapper { max-width: 1024px; }
+  .dt-1, .dt-2, .dt-3, .dt-4, .dt-5, .dt-6, .dt-7, .dt-8, .dt-9, .dt-10, .dt-11, .dt-12, .dt-13, .dt-14, .dt-15, .dt-16, .dt-17, .dt-18, .dt-19, .dt-20, .dt-21, .dt-22, .dt-23, .dt-24 { width: 100%; margin-bottom: 20px; }
+  .tl-1 { width: 8.33333%; }
+  .tl-2 { width: 16.66667%; }
+  .tl-3 { width: 25%; }
+  .tl-4 { width: 33.33333%; }
+  .tl-5 { width: 41.66667%; }
+  .tl-6 { width: 50%; }
+  .tl-7 { width: 58.33333%; }
+  .tl-8 { width: 66.66667%; }
+  .tl-9 { width: 75%; }
+  .tl-10 { width: 83.33333%; }
+  .tl-11 { width: 91.66667%; }
+  .tl-12 { width: 100%; }
+  .tl-13 { width: 108.33333%; }
+  .tl-14 { width: 116.66667%; }
+  .tl-15 { width: 125.0%; }
+  .tl-16 { width: 133.33333%; }
+  .tl-17 { width: 141.66667%; }
+  .tl-18 { width: 150%; }
+  .tl-19 { width: 158.33333%; }
+  .tl-20 { width: 166.66667%; }
+  .tl-21 { width: 175%; }
+  .tl-22 { width: 183.33333%; }
+  .tl-23 { width: 191.66667%; }
+  .tl-24 { width: 200%; } }
+@media (max-width: 768px) { .tl-1, .tl-2, .tl-3, .tl-4, .tl-5, .tl-6, .tl-7, .tl-8, .tl-9, .tl-10, .tl-11, .tl-12, .tl-13, .tl-14, .tl-15, .tl-16, .tl-17, .tl-18, .tl-19, .tl-20, .tl-21, .tl-22, .tl-23, .tl-24 { width: 100%; margin-bottom: 20px; }
+  .tp-1 { width: 8.33333%; }
+  .tp-2 { width: 16.66667%; }
+  .tp-3 { width: 25%; }
+  .tp-4 { width: 33.33333%; }
+  .tp-5 { width: 41.66667%; }
+  .tp-6 { width: 50%; }
+  .tp-7 { width: 58.33333%; }
+  .tp-8 { width: 66.66667%; }
+  .tp-9 { width: 75%; }
+  .tp-10 { width: 83.33333%; }
+  .tp-11 { width: 91.66667%; }
+  .tp-12 { width: 100%; }
+  .tp-13 { width: 108.33333%; }
+  .tp-14 { width: 116.66667%; }
+  .tp-15 { width: 125.0%; }
+  .tp-16 { width: 133.33333%; }
+  .tp-17 { width: 141.66667%; }
+  .tp-18 { width: 150%; }
+  .tp-19 { width: 158.33333%; }
+  .tp-20 { width: 166.66667%; }
+  .tp-21 { width: 175%; }
+  .tp-22 { width: 183.33333%; }
+  .tp-23 { width: 191.66667%; }
+  .tp-24 { width: 200%; } }
+@media (max-width: 568px) { .tp-1, .tp-2, .tp-3, .tp-4, .tp-5, .tp-6, .tp-7, .tp-8, .tp-9, .tp-10, .tp-11, .tp-12, .tp-13, .tp-14, .tp-15, .tp-16, .tp-17, .tp-18, .tp-19, .tp-20, .tp-21, .tp-22, .tp-23, .tp-24 { width: 100%; margin-bottom: 20px; }
+  .ml-1 { width: 8.33333%; }
+  .ml-2 { width: 16.66667%; }
+  .ml-3 { width: 25%; }
+  .ml-4 { width: 33.33333%; }
+  .ml-5 { width: 41.66667%; }
+  .ml-6 { width: 50%; }
+  .ml-7 { width: 58.33333%; }
+  .ml-8 { width: 66.66667%; }
+  .ml-9 { width: 75%; }
+  .ml-10 { width: 83.33333%; }
+  .ml-11 { width: 91.66667%; }
+  .ml-12 { width: 100%; }
+  .ml-13 { width: 108.33333%; }
+  .ml-14 { width: 116.66667%; }
+  .ml-15 { width: 125.0%; }
+  .ml-16 { width: 133.33333%; }
+  .ml-17 { width: 141.66667%; }
+  .ml-18 { width: 150%; }
+  .ml-19 { width: 158.33333%; }
+  .ml-20 { width: 166.66667%; }
+  .ml-21 { width: 175%; }
+  .ml-22 { width: 183.33333%; }
+  .ml-23 { width: 191.66667%; }
+  .ml-24 { width: 200%; } }
+@media (max-width: 320px) { .ml-1, .ml-2, .ml-3, .ml-4, .ml-5, .ml-6, .ml-7, .ml-8, .ml-9, .ml-10, .ml-11, .ml-12, .ml-13, .ml-14, .ml-15, .ml-16, .ml-17, .ml-18, .ml-19, .ml-20, .ml-21, .ml-22, .ml-23, .ml-24 { width: 100%; margin-bottom: 20px; }
+  .mp-1 { width: 8.33333%; }
+  .mp-2 { width: 16.66667%; }
+  .mp-3 { width: 25%; }
+  .mp-4 { width: 33.33333%; }
+  .mp-5 { width: 41.66667%; }
+  .mp-6 { width: 50%; }
+  .mp-7 { width: 58.33333%; }
+  .mp-8 { width: 66.66667%; }
+  .mp-9 { width: 75%; }
+  .mp-10 { width: 83.33333%; }
+  .mp-11 { width: 91.66667%; }
+  .mp-12 { width: 100%; }
+  .mp-13 { width: 108.33333%; }
+  .mp-14 { width: 116.66667%; }
+  .mp-15 { width: 125.0%; }
+  .mp-16 { width: 133.33333%; }
+  .mp-17 { width: 141.66667%; }
+  .mp-18 { width: 150%; }
+  .mp-19 { width: 158.33333%; }
+  .mp-20 { width: 166.66667%; }
+  .mp-21 { width: 175%; }
+  .mp-22 { width: 183.33333%; }
+  .mp-23 { width: 191.66667%; }
+  .mp-24 { width: 200%; } }
+@media (max-width: 567px) { .mp-hide { display: none !important; } }
+@media (min-width: 568px) and (max-width: 767px) { .ml-hide { display: none !important; } }
+@media (min-width: 768px) and (max-width: 1023px) { .tp-hide { display: none !important; } }
+@media (max-width: 1024px) { .tl-hide { display: none !important; } }
+@media (min-width: 1025px) { .dt-hide { display: none !important; } }

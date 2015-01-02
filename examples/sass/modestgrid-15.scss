@@ -1,16 +1,8 @@
 // Number of columns
-$columns: 	12;
+$columns: 15;
 
 // Gutter width
-$gutter: 	40px; // This needs to be an even number.
-
-// Breakpoints
-$maxwidth: 	1280px;
-$dt: 		1170px;
-$tl: 		1024px;
-$tp: 		768px;
-$ml: 		568px;
-$mp: 		320px;
+$gutter: 40px; // This needs to be an even number.
 
 * {
 	box-sizing: border-box;
@@ -29,7 +21,7 @@ body {
 }
 
 .wrapper {
-	max-width: $maxwidth;
+	max-width: 1280px;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -182,21 +174,21 @@ body {
 	width: (100% / $columns) * 24;
 }
 
-@media (max-width: $maxwidth) {
+@media (max-width: 1280px) {
 	.wrapper {
-		max-width: $dt;
+		max-width: 1170px;
 	}
 }
 
-@media (max-width: $dt) {
+@media (max-width: 1170px) {
 	.wrapper {
-		max-width: $tl;
+		max-width: 960px;
 	}
 }
 
-@media (max-width : $tl) {
+@media (max-width : 1024px) {
 	.wrapper {
-		max-width: $tl;
+		max-width: 1024px;
 	}
 
 	.dt-1,
@@ -324,7 +316,7 @@ body {
 	}
 }
 
-@media (max-width: $tp) {
+@media (max-width: 768px) {
 	.tl-1,
 	.tl-2,
 	.tl-3,
@@ -450,7 +442,7 @@ body {
 	}
 }
 
-@media (max-width: $ml) {
+@media (max-width: 568px) {
 	.tp-1,
 	.tp-2,
 	.tp-3,
@@ -576,7 +568,7 @@ body {
 	}
 }
 
-@media (max-width: $mp) {
+@media (max-width: 320px) {
 	.ml-1,
 	.ml-2,
 	.ml-3,
