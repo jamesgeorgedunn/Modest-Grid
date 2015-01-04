@@ -1,8 +1,16 @@
 // Number of columns
-$columns: 12;
+$columns: 	12;
 
 // Gutter width
-$gutter: 20px; // This needs to be an even number.
+$gutter: 	40px; // This needs to be an even number.
+
+// Breakpoints
+$maxwidth: 	1280px;
+$dt: 		1170px;
+$tl: 		1024px;
+$tp: 		768px;
+$ml: 		568px;
+$mp: 		320px;
 
 * {
 	box-sizing: border-box;
@@ -23,8 +31,6 @@ html, body {
 
 body {
 	margin: 0;
-	font-family: Georgia, Times, serif;
-	font-style: italic;
 }
 
 .wrapper {
@@ -40,6 +46,10 @@ body {
 .row {
 	margin-left: -$gutter / 2;
 	margin-right: -$gutter / 2;
+}
+
+.nested {
+	margin-bottom: 0 !important;
 }
 
 .wrapper:before,
@@ -84,6 +94,7 @@ body {
 	padding-left: $gutter / 2;
 	padding-right: $gutter / 2;
 	min-height: 1px;
+	margin-bottom: $gutter / 2;
 }
 
 .dt-1 {
@@ -255,21 +266,21 @@ body {
 	display: table;
 }
 
-@media (max-width: 1280px) {
+@media (max-width: $maxwidth) {
 	.wrapper {
-		max-width: 1170px;
+		max-width: $dt;
 	}
 }
 
-@media (max-width: 1170px) {
+@media (max-width: $dt) {
 	.wrapper {
-		max-width: 960px;
+		max-width: $tl;
 	}
 }
 
-@media (max-width : 1024px) {
+@media (max-width : $tl) {
 	.wrapper {
-		max-width: 1024px;
+		max-width: $tl;
 	}
 
 	.dt-1,
@@ -396,7 +407,7 @@ body {
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: $tp) {
 	.tl-1,
 	.tl-2,
 	.tl-3,
@@ -521,7 +532,7 @@ body {
 	}
 }
 
-@media (max-width: 568px) {
+@media (max-width: $ml) {
 	.tp-1,
 	.tp-2,
 	.tp-3,
@@ -646,7 +657,7 @@ body {
 	}
 }
 
-@media (max-width: 320px) {
+@media (max-width: $mp) {
 	.ml-1,
 	.ml-2,
 	.ml-3,
@@ -772,7 +783,7 @@ body {
 }
 
 // Hide columns
-@media (max-width: 567px) {
+@media (max-width: $ml - 1) {
 	.mp-hide {
 		display: none !important;
 	}
@@ -782,7 +793,7 @@ body {
 	}
 }
 
-@media (min-width: 568px) and (max-width: 767px) {
+@media (min-width: $ml) and (max-width: $tp - 1) {
 	.ml-hide {
 		display: none !important;
 	}
@@ -792,7 +803,7 @@ body {
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: $tp) and (max-width: $tl - 1) {
 	.tp-hide {
 		display: none !important;
 	}
@@ -802,7 +813,7 @@ body {
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $tl) {
 	.tl-hide {
 		display: none !important;
 	}
@@ -812,7 +823,7 @@ body {
 	}
 }
 
-@media (min-width: 1025px) {
+@media (min-width: $tl + 1) {
 	.dt-hide {
 		display: none !important;
 	}

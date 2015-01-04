@@ -704,31 +704,31 @@ body {
 }
 
 // Hide columns
-@media (max-width: 567px) {
+@media (max-width: $ml - 1) {
 	.mp-hide {
 		display: none !important;
 	}
 }
 
-@media (min-width: 568px) and (max-width: 767px) {
+@media (min-width: $ml) and (max-width: $tp - 1) {
 	.ml-hide {
 		display: none !important;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: $tp) and (max-width: $tl - 1) {
 	.tp-hide {
 		display: none !important;
 	}
 }
 
-@media (max-width: 1024px) {
+@media (max-width: $tl) {
 	.tl-hide {
 		display: none !important;
 	}
 }
 
-@media (min-width: 1025px) {
+@media (min-width: $tl + 1) {
 	.dt-hide {
 		display: none !important;
 	}
