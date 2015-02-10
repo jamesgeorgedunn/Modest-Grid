@@ -1668,10 +1668,38 @@ body {
 	.mp-hide {
 		display: none !important;
 	}
+	
+	.ml-hide {
+		display: none !important;
+	}
+	
+	.tp-hide {
+		display: none !important;
+	}
+	
+	.tl-hide {
+		display: none !important;
+	}
+	
+	.dt-hide {
+		display: none !important;
+	}
 }
 
 @media (min-width: $ml) and (max-width: $tp - 1) {
 	.ml-hide {
+		display: none !important;
+	}
+	
+	.tp-hide {
+		display: none !important;
+	}
+	
+	.tl-hide {
+		display: none !important;
+	}
+	
+	.dt-hide {
 		display: none !important;
 	}
 }
@@ -1680,10 +1708,22 @@ body {
 	.tp-hide {
 		display: none !important;
 	}
+	
+	.tl-hide {
+		display: none !important;
+	}
+	
+	.dt-hide {
+		display: none !important;
+	}
 }
 
 @media (max-width: $tl) {
 	.tl-hide {
+		display: none !important;
+	}
+	
+	.dt-hide {
 		display: none !important;
 	}
 }
