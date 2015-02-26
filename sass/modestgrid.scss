@@ -571,6 +571,102 @@ body {
 	width: (100% / $columns) * 24;
 }
 
+.indent-dt-1 {
+	margin-left: (100% / $columns) * 1;
+}
+
+.indent-dt-2 {
+	margin-left: (100% / $columns) * 2;
+}
+
+.indent-dt-3 {
+	margin-left: (100% / $columns) * 3;
+}
+
+.indent-dt-4 {
+	margin-left: (100% / $columns) * 4;
+}
+
+.indent-dt-5 {
+	margin-left: (100% / $columns) * 5;
+}
+
+.indent-dt-6 {
+	margin-left: (100% / $columns) * 6;
+}
+
+.indent-dt-7 {
+	margin-left: (100% / $columns) * 7;
+}
+
+.indent-dt-8 {
+	margin-left: (100% / $columns) * 8;
+}
+
+.indent-dt-9 {
+	margin-left: (100% / $columns) * 9;
+}
+
+.indent-dt-10 {
+	margin-left: (100% / $columns) * 10;
+}
+
+.indent-dt-11 {
+	margin-left: (100% / $columns) * 11;
+}
+
+.indent-dt-12 {
+	margin-left: (100% / $columns) * 12;
+}
+
+.indent-dt-13 {
+	margin-left: (100% / $columns) * 13;
+}
+
+.indent-dt-14 {
+	margin-left: (100% / $columns) * 14;
+}
+
+.indent-dt-15 {
+	margin-left: (100% / $columns) * 15;
+}
+
+.indent-dt-16 {
+	margin-left: (100% / $columns) * 16;
+}
+
+.indent-dt-17 {
+	margin-left: (100% / $columns) * 17;
+}
+
+.indent-dt-18 {
+	margin-left: (100% / $columns) * 18;
+}
+
+.indent-dt-19 {
+	margin-left: (100% / $columns) * 19;
+}
+
+.indent-dt-20 {
+	margin-left: (100% / $columns) * 20;
+}
+
+.indent-dt-21 {
+	margin-left: (100% / $columns) * 21;
+}
+
+.indent-dt-22 {
+	margin-left: (100% / $columns) * 22;
+}
+
+.indent-dt-23 {
+	margin-left: (100% / $columns) * 23;
+}
+
+.indent-dt-24 {
+	margin-left: (100% / $columns) * 24;
+}
+
 @media (max-width: $maxwidth) {
 	.wrapper {
 		max-width: $dt;
@@ -611,8 +707,131 @@ body {
 	.dt-21,
 	.dt-22,
 	.dt-23,
-	.dt-24, {
+	.dt-24 {
 		width: 100%;
+	}
+	
+	.indent-dt-1,
+	.indent-dt-2,
+	.indent-dt-3,
+	.indent-dt-4,
+	.indent-dt-5,
+	.indent-dt-6,
+	.indent-dt-7,
+	.indent-dt-8,
+	.indent-dt-9,
+	.indent-dt-10,
+	.indent-dt-11,
+	.indent-dt-12,
+	.indent-dt-13,
+	.indent-dt-14,
+	.indent-dt-15,
+	.indent-dt-16,
+	.indent-dt-17,
+	.indent-dt-18,
+	.indent-dt-19,
+	.indent-dt-20,
+	.indent-dt-21,
+	.indent-dt-22,
+	.indent-dt-23,
+	.indent-dt-24 {
+		margin-left: 0;
+	}
+	
+	.indent-tl-1 {
+		margin-left: (100% / $columns) * 1;
+	}
+	
+	.indent-tl-2 {
+		margin-left: (100% / $columns) * 2;
+	}
+	
+	.indent-tl-3 {
+		margin-left: (100% / $columns) * 3;
+	}
+	
+	.indent-tl-4 {
+		margin-left: (100% / $columns) * 4;
+	}
+	
+	.indent-tl-5 {
+		margin-left: (100% / $columns) * 5;
+	}
+	
+	.indent-tl-6 {
+		margin-left: (100% / $columns) * 6;
+	}
+	
+	.indent-tl-7 {
+		margin-left: (100% / $columns) * 7;
+	}
+	
+	.indent-tl-8 {
+		margin-left: (100% / $columns) * 8;
+	}
+	
+	.indent-tl-9 {
+		margin-left: (100% / $columns) * 9;
+	}
+	
+	.indent-tl-10 {
+		margin-left: (100% / $columns) * 10;
+	}
+	
+	.indent-tl-11 {
+		margin-left: (100% / $columns) * 11;
+	}
+	
+	.indent-tl-12 {
+		margin-left: (100% / $columns) * 12;
+	}
+	
+	.indent-tl-13 {
+		margin-left: (100% / $columns) * 13;
+	}
+	
+	.indent-tl-14 {
+		margin-left: (100% / $columns) * 14;
+	}
+	
+	.indent-tl-15 {
+		margin-left: (100% / $columns) * 15;
+	}
+	
+	.indent-tl-16 {
+		margin-left: (100% / $columns) * 16;
+	}
+	
+	.indent-tl-17 {
+		margin-left: (100% / $columns) * 17;
+	}
+	
+	.indent-tl-18 {
+		margin-left: (100% / $columns) * 18;
+	}
+	
+	.indent-tl-19 {
+		margin-left: (100% / $columns) * 19;
+	}
+	
+	.indent-tl-20 {
+		margin-left: (100% / $columns) * 20;
+	}
+	
+	.indent-tl-21 {
+		margin-left: (100% / $columns) * 21;
+	}
+	
+	.indent-tl-22 {
+		margin-left: (100% / $columns) * 22;
+	}
+	
+	.indent-tl-23 {
+		margin-left: (100% / $columns) * 23;
+	}
+	
+	.indent-tl-24 {
+		margin-left: (100% / $columns) * 24;
 	}
 	
 	.mp-1 {
@@ -1024,8 +1243,131 @@ body {
 	.tl-21,
 	.tl-22,
 	.tl-23,
-	.tl-24, {
+	.tl-24 {
 		width: 100%;
+	}
+	
+	.indent-tl-1,
+	.indent-tl-2,
+	.indent-tl-3,
+	.indent-tl-4,
+	.indent-tl-5,
+	.indent-tl-6,
+	.indent-tl-7,
+	.indent-tl-8,
+	.indent-tl-9,
+	.indent-tl-10,
+	.indent-tl-11,
+	.indent-tl-12,
+	.indent-tl-13,
+	.indent-tl-14,
+	.indent-tl-15,
+	.indent-tl-16,
+	.indent-tl-17,
+	.indent-tl-18,
+	.indent-tl-19,
+	.indent-tl-20,
+	.indent-tl-21,
+	.indent-tl-22,
+	.indent-tl-23,
+	.indent-tl-24 {
+		margin-left: 0;
+	}
+	
+	.indent-tp-1 {
+		margin-left: (100% / $columns) * 1;
+	}
+	
+	.indent-tp-2 {
+		margin-left: (100% / $columns) * 2;
+	}
+	
+	.indent-tp-3 {
+		margin-left: (100% / $columns) * 3;
+	}
+	
+	.indent-tp-4 {
+		margin-left: (100% / $columns) * 4;
+	}
+	
+	.indent-tp-5 {
+		margin-left: (100% / $columns) * 5;
+	}
+	
+	.indent-tp-6 {
+		margin-left: (100% / $columns) * 6;
+	}
+	
+	.indent-tp-7 {
+		margin-left: (100% / $columns) * 7;
+	}
+	
+	.indent-tp-8 {
+		margin-left: (100% / $columns) * 8;
+	}
+	
+	.indent-tp-9 {
+		margin-left: (100% / $columns) * 9;
+	}
+	
+	.indent-tp-10 {
+		margin-left: (100% / $columns) * 10;
+	}
+	
+	.indent-tp-11 {
+		margin-left: (100% / $columns) * 11;
+	}
+	
+	.indent-tp-12 {
+		margin-left: (100% / $columns) * 12;
+	}
+	
+	.indent-tp-13 {
+		margin-left: (100% / $columns) * 13;
+	}
+	
+	.indent-tp-14 {
+		margin-left: (100% / $columns) * 14;
+	}
+	
+	.indent-tp-15 {
+		margin-left: (100% / $columns) * 15;
+	}
+	
+	.indent-tp-16 {
+		margin-left: (100% / $columns) * 16;
+	}
+	
+	.indent-tp-17 {
+		margin-left: (100% / $columns) * 17;
+	}
+	
+	.indent-tp-18 {
+		margin-left: (100% / $columns) * 18;
+	}
+	
+	.indent-tp-19 {
+		margin-left: (100% / $columns) * 19;
+	}
+	
+	.indent-tp-20 {
+		margin-left: (100% / $columns) * 20;
+	}
+	
+	.indent-tp-21 {
+		margin-left: (100% / $columns) * 21;
+	}
+	
+	.indent-tp-22 {
+		margin-left: (100% / $columns) * 22;
+	}
+	
+	.indent-tp-23 {
+		margin-left: (100% / $columns) * 23;
+	}
+	
+	.indent-tp-24 {
+		margin-left: (100% / $columns) * 24;
 	}
 	
 	.mp-1 {
@@ -1341,8 +1683,131 @@ body {
 	.tp-21,
 	.tp-22,
 	.tp-23,
-	.tp-24, {
+	.tp-24 {
 		width: 100%;
+	}
+	
+	.indent-tp-1,
+	.indent-tp-2,
+	.indent-tp-3,
+	.indent-tp-4,
+	.indent-tp-5,
+	.indent-tp-6,
+	.indent-tp-7,
+	.indent-tp-8,
+	.indent-tp-9,
+	.indent-tp-10,
+	.indent-tp-11,
+	.indent-tp-12,
+	.indent-tp-13,
+	.indent-tp-14,
+	.indent-tp-15,
+	.indent-tp-16,
+	.indent-tp-17,
+	.indent-tp-18,
+	.indent-tp-19,
+	.indent-tp-20,
+	.indent-tp-21,
+	.indent-tp-22,
+	.indent-tp-23,
+	.indent-tp-24 {
+		margin-left: 0;
+	}
+	
+	.indent-ml-1 {
+		margin-left: (100% / $columns) * 1;
+	}
+	
+	.indent-ml-2 {
+		margin-left: (100% / $columns) * 2;
+	}
+	
+	.indent-ml-3 {
+		margin-left: (100% / $columns) * 3;
+	}
+	
+	.indent-ml-4 {
+		margin-left: (100% / $columns) * 4;
+	}
+	
+	.indent-ml-5 {
+		margin-left: (100% / $columns) * 5;
+	}
+	
+	.indent-ml-6 {
+		margin-left: (100% / $columns) * 6;
+	}
+	
+	.indent-ml-7 {
+		margin-left: (100% / $columns) * 7;
+	}
+	
+	.indent-ml-8 {
+		margin-left: (100% / $columns) * 8;
+	}
+	
+	.indent-ml-9 {
+		margin-left: (100% / $columns) * 9;
+	}
+	
+	.indent-ml-10 {
+		margin-left: (100% / $columns) * 10;
+	}
+	
+	.indent-ml-11 {
+		margin-left: (100% / $columns) * 11;
+	}
+	
+	.indent-ml-12 {
+		margin-left: (100% / $columns) * 12;
+	}
+	
+	.indent-ml-13 {
+		margin-left: (100% / $columns) * 13;
+	}
+	
+	.indent-ml-14 {
+		margin-left: (100% / $columns) * 14;
+	}
+	
+	.indent-ml-15 {
+		margin-left: (100% / $columns) * 15;
+	}
+	
+	.indent-ml-16 {
+		margin-left: (100% / $columns) * 16;
+	}
+	
+	.indent-ml-17 {
+		margin-left: (100% / $columns) * 17;
+	}
+	
+	.indent-ml-18 {
+		margin-left: (100% / $columns) * 18;
+	}
+	
+	.indent-ml-19 {
+		margin-left: (100% / $columns) * 19;
+	}
+	
+	.indent-ml-20 {
+		margin-left: (100% / $columns) * 20;
+	}
+	
+	.indent-ml-21 {
+		margin-left: (100% / $columns) * 21;
+	}
+	
+	.indent-ml-22 {
+		margin-left: (100% / $columns) * 22;
+	}
+	
+	.indent-ml-23 {
+		margin-left: (100% / $columns) * 23;
+	}
+	
+	.indent-ml-24 {
+		margin-left: (100% / $columns) * 24;
 	}
 	
 	.mp-1 {
@@ -1562,8 +2027,131 @@ body {
 	.ml-21,
 	.ml-22,
 	.ml-23,
-	.ml-24, {
+	.ml-24 {
 		width: 100%;
+	}
+	
+	.indent-ml-1,
+	.indent-ml-2,
+	.indent-ml-3,
+	.indent-ml-4,
+	.indent-ml-5,
+	.indent-ml-6,
+	.indent-ml-7,
+	.indent-ml-8,
+	.indent-ml-9,
+	.indent-ml-10,
+	.indent-ml-11,
+	.indent-ml-12,
+	.indent-ml-13,
+	.indent-ml-14,
+	.indent-ml-15,
+	.indent-ml-16,
+	.indent-ml-17,
+	.indent-ml-18,
+	.indent-ml-19,
+	.indent-ml-20,
+	.indent-ml-21,
+	.indent-ml-22,
+	.indent-ml-23,
+	.indent-ml-24 {
+		margin-left: 0;
+	}
+	
+	.indent-mp-1 {
+		margin-left: (100% / $columns) * 1;
+	}
+	
+	.indent-mp-2 {
+		margin-left: (100% / $columns) * 2;
+	}
+	
+	.indent-mp-3 {
+		margin-left: (100% / $columns) * 3;
+	}
+	
+	.indent-mp-4 {
+		margin-left: (100% / $columns) * 4;
+	}
+	
+	.indent-mp-5 {
+		margin-left: (100% / $columns) * 5;
+	}
+	
+	.indent-mp-6 {
+		margin-left: (100% / $columns) * 6;
+	}
+	
+	.indent-mp-7 {
+		margin-left: (100% / $columns) * 7;
+	}
+	
+	.indent-mp-8 {
+		margin-left: (100% / $columns) * 8;
+	}
+	
+	.indent-mp-9 {
+		margin-left: (100% / $columns) * 9;
+	}
+	
+	.indent-mp-10 {
+		margin-left: (100% / $columns) * 10;
+	}
+	
+	.indent-mp-11 {
+		margin-left: (100% / $columns) * 11;
+	}
+	
+	.indent-mp-12 {
+		margin-left: (100% / $columns) * 12;
+	}
+	
+	.indent-mp-13 {
+		margin-left: (100% / $columns) * 13;
+	}
+	
+	.indent-mp-14 {
+		margin-left: (100% / $columns) * 14;
+	}
+	
+	.indent-mp-15 {
+		margin-left: (100% / $columns) * 15;
+	}
+	
+	.indent-mp-16 {
+		margin-left: (100% / $columns) * 16;
+	}
+	
+	.indent-mp-17 {
+		margin-left: (100% / $columns) * 17;
+	}
+	
+	.indent-mp-18 {
+		margin-left: (100% / $columns) * 18;
+	}
+	
+	.indent-mp-19 {
+		margin-left: (100% / $columns) * 19;
+	}
+	
+	.indent-mp-20 {
+		margin-left: (100% / $columns) * 20;
+	}
+	
+	.indent-mp-21 {
+		margin-left: (100% / $columns) * 21;
+	}
+	
+	.indent-mp-22 {
+		margin-left: (100% / $columns) * 22;
+	}
+	
+	.indent-mp-23 {
+		margin-left: (100% / $columns) * 23;
+	}
+	
+	.indent-mp-24 {
+		margin-left: (100% / $columns) * 24;
 	}
 	
 	.mp-1 {
