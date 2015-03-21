@@ -667,19 +667,13 @@ body {
 	margin-left: (100% / $columns) * 24;
 }
 
-@media (max-width: $maxwidth) {
+@media (max-width: $maxwidth - 1) {
 	.wrapper {
 		max-width: $dt;
 	}
 }
 
-@media (max-width: $dt) {
-	.wrapper {
-		max-width: $tl;
-	}
-}
-
-@media (max-width : $tl) {
+@media (max-width: $dt - 1) {
 	.wrapper {
 		max-width: $tl;
 	}
@@ -1219,7 +1213,7 @@ body {
 	}
 }
 
-@media (max-width: $tp) {
+@media (max-width: $tl - 1) {
 	.tl-1,
 	.tl-2,
 	.tl-3,
@@ -1659,7 +1653,7 @@ body {
 	}
 }
 
-@media (max-width: $ml) {
+@media (max-width: $tp - 1) {
 	.tp-1,
 	.tp-2,
 	.tp-3,
@@ -2003,7 +1997,7 @@ body {
 	}
 }
 
-@media (max-width: $mp) {
+@media (max-width: $ml - 1) {
 	.ml-1,
 	.ml-2,
 	.ml-3,
