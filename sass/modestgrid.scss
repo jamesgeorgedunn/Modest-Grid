@@ -5,12 +5,13 @@ $columns: 	12;
 $gutter: 	40px; // This needs to be an even number.
 
 // Breakpoints
-$maxwidth: 	1280px;
-$dt: 		1170px;
-$tl: 		1024px;
-$tp: 		768px;
-$ml: 		568px;
-$mp: 		320px;
+$maxwidth: 		1440px;
+$wrapperwidth:	1280px;
+$dt: 			1170px;
+$tl: 			1024px;
+$tp: 			768px;
+$ml: 			568px;
+$mp: 			320px;
 
 * {
 	box-sizing: border-box;
@@ -29,7 +30,7 @@ body {
 }
 
 .wrapper {
-	max-width: $maxwidth;
+	max-width: $wrapperwidth;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -667,7 +668,7 @@ body {
 	margin-left: (100% / $columns) * 24;
 }
 
-@media (max-width: $maxwidth - 1) {
+@media (min-width: $dt) and (max-width: $maxwidth) {
 	.wrapper {
 		max-width: $dt;
 	}
