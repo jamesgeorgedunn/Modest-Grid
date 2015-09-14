@@ -43,10 +43,18 @@ body {
 	margin-right: -$gutter / 2;
 }
 
+<<<<<<< HEAD
+=======
+.nested {
+	margin-bottom: 0 !important;
+}
+
+>>>>>>> FETCH_HEAD
 .wrapper:before,
 .row:before {
 	display: table;
 	content: " ";
+<<<<<<< HEAD
 }
 
 .wrapper:after,
@@ -117,6 +125,33 @@ $columnsCount: $columns;
 $columnsCount: $columns;
 @while $columnsCount > 0 {
 	.dt-#{$columnsCount} {
+=======
+}
+
+.wrapper:after,
+.row:after {
+	clear: both;
+	display: table;
+	content: " ";
+}
+
+$columnsCount: $columns;
+@while $columnsCount > 0 {
+	.dt-#{$columnsCount}, .tl-#{$columnsCount}, .tp-#{$columnsCount}, .ml-#{$columnsCount}, .mp-#{$columnsCount} {
+		float: left;
+		padding-left: $gutter / 2;
+		padding-right: $gutter / 2;
+		min-height: 1px;
+		margin-bottom: $gutter / 2;
+	}
+	
+	$columnsCount: $columnsCount - 1;
+}
+
+$columnsCount: $columns;
+@while $columnsCount > 0 {
+	.mp-#{$columnsCount}, .ml-#{$columnsCount}, .tp-#{$columnsCount}, .tl-#{$columnsCount}, .dt-#{$columnsCount} {
+>>>>>>> FETCH_HEAD
 		width: (100% / $columns) * $columnsCount;
 	}
 	
