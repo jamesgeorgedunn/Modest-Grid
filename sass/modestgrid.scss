@@ -1,18 +1,20 @@
 // Number of columns
-$columns: 	12;
+$columns: 	12 !default;
 
 // Gutter width
-$gutter: 	40px; // This needs to be an even number.
+$gutter: 	40px !default; // This needs to be an even number.
 
 // Breakpoints
-$maxwidth: 		1440px;
-$wrapperwidth:	1280px;
-$dt: 			1170px;
-$tl: 			1024px;
-$tp: 			768px;
-$ml: 			568px;
-$mp: 			320px;
+$maxwidth: 	1440px !default;
+$wrapperwidth:	1280px !default;
+$dt: 		1170px !default;
+$tl: 		1024px !default;
+$tp: 		 768px !default;
+$ml: 		 568px !default;
+$mp: 		 320px !default;
 
+
+// === Don't chache stuff below this line ===
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
