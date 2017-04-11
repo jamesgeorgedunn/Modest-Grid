@@ -345,6 +345,11 @@ $columnsCount: $columns;
 	}
 }
 
+// Forces any left positioned element to go to the right
+.force {
+	float: right;
+}
+
 // Hide columns
 @media (max-width: $ml - 1) {
 	.mp-hide {
